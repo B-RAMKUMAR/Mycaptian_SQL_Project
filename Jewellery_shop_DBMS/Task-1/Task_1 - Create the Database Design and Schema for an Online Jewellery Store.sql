@@ -70,3 +70,4 @@ CREATE TABLE Cart (
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID),
     FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
 );
+--
